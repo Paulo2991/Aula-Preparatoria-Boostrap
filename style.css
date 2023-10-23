@@ -1,0 +1,125 @@
+/*# sourceMappingURL=bootstrap.css.map */
+
+body{
+    background-color:#fff;
+  }
+  .logo-legenda {
+    font-size: 1rem; /* Ajuste o tamanho da legenda conforme necessário */
+    margin-left: 0.5rem;
+  }
+  
+  .navbar-brand img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px; /* Adicione margem inferior para criar espaço entre o logotipo e a legenda */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1.0rem;
+  }
+  
+  
+  
+  .container h1 {
+    text-align: center; /* Centraliza o texto horizontalmente */
+  
+  }
+  
+  .container p {
+    text-align: justify;
+  }
+  
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  
+  .navbar-nav a:hover {
+    color: #ffc107;  /* Manter a cor fixa ao passar o mouse por cima */
+    text-decoration: none; 
+  
+  }
+  
+  
+  .navbar-nav a {
+    color: #000;
+    text-decoration: none; 
+  }
+  
+  /* Estilização do link ao passar o mouse sobre ele */
+  a:hover {
+    color: #ffc107; /* Define a cor ao passar o mouse sobre o link */
+  }
+  /* Estilização de links sem sublinhado */
+  a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #ecf5f7; /* Define a cor padrão do link */
+  }
+  .carousel-item img {
+    height: 35rem; 
+  }
+    
+  
+   /* Estilos para telas pequenas (dispositivos móveis) */
+  @media (max-width: 576px) {
+    /* Reduz a altura das imagens no carrossel */
+    .carousel-item img {
+        height: 300px;
+    }
+  
+    /* Torna o texto no carrossel menor */
+    .carousel-caption h2,
+    .carousel-caption p {
+        font-size: 1.5rem;
+    }
+  }
+  
+  /* Estilos para telas médias (tablets) */
+  @media (min-width: 576px) and (max-width: 992px) {
+    /* Aumenta um pouco a altura das imagens no carrossel */
+    .carousel-item img {
+        height: 400px;
+    }
+  
+    /* Aumenta o tamanho da fonte do título do carrossel */
+    .carousel-caption h2 {
+        font-size: 1.8rem;
+    }
+  
+    /* Diminui o tamanho da fonte do texto do carrossel */
+    .carousel-caption p {
+        font-size: 1.3rem;
+    }
+  }
+  
+  /* Estilos para o carrossel */
+  #carouselExampleCaptions {
+    margin-top: 100px; /* Adicione margem na parte superior do carrossel */
+  }
+  
+  
+  /* Estilos adicionais para telas menores (mobile) */
+  @media (max-width: 768px) {
+    /* Estilos para telas menores */
+    .navbar-and-carousel {
+        flex-direction: column;
+    }
+  }
+  
+  
+.card {
+    margin-bottom: 20px;
+}
+.card-text {
+    text-align: justify;
+}
+  
+h2.card-title {
+  font-size: 20px; /* Defina o tamanho desejado aqui */
+}
+  
+  
+  
+  
